@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_informacio"
+            android:icon="?attr/homeAsUpIndicator"
+            android:title="Informació" />
+        <item
+            android:id="@+id/nav_crea"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Crea" />
+        <item
+            android:id="@+id/nav_descobreix"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Descobreix" />
+    </group>
+
+    <item android:title="Comunicació">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Correu" />
+        </menu>
+    </item>
+
+</menu>

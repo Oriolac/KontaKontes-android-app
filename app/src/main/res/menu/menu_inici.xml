@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.esy.contacontes.kontakontes.Inici">
+    <!--- Aquest menu, que és una toolbar (barra d'eines), no és necessària perquè no la utilitzarem, ja que l'activitat principal és una NoActionBar, que vol dir que no té cap barra. -->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Quant a i ajuda"
+        app:showAsAction="never" />
+</menu>

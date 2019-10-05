@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!-- Lloc per emmagatzemar a una toolbar un item com per fer Preferències, etc. No l’he volgut utilitzar ja que ho trobava innecessari.-->
+</menu>
